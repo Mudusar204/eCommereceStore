@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navLink{
+  /* font-size: larger; */
+  text-decoration: none;
+  color: royalblue;
+}
+.productWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ margin-left:40px ;
+  gap: 20px;
+}
+.cardItem{
+  width: 250px;
+  height: auto;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+.btn{
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
